@@ -2,7 +2,7 @@ package com.password.main.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "new_hires")
+@Table(name = "new_hires") // always make sure name here matches table name NOT schema name
 public class Password {
 
     @Id
